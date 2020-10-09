@@ -2,6 +2,8 @@ package Keioshiri.Konstantin.FantasyCube;
 
 
 import Keioshiri.Konstantin.FantasyCube.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraftforge.fml.common.Mod;
@@ -35,5 +37,13 @@ public class FantasyCubeMod {
     private void doClientStuff(final FMLClientSetupEvent event) {
 
     }
+
+
+    public static final ItemGroup TAB = new ItemGroup("FantasyCubeTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.TITAN.get());
+        }
+    };
 
 }
