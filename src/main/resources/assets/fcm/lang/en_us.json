@@ -1,6 +1,7 @@
 {
   "item.fcm.titan": "Titan",
-  "block.fcm.titan_block": "Titan block",
+  "block.fcm.titan_block": "Titan Block",
   "itemGroup.FantasyCubeTab": "FantasyCubeMod",
-  "item.fcm.titan_sword": "Titan sword"
+  "item.fcm.titan_sword": "Titan Sword",
+  "item.fcm.titan_pickaxe": "Titan Pickaxe"
 }
