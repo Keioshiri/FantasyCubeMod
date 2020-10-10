@@ -41,6 +41,7 @@ public class RegistryHandler {
 
         // Блоки
             public static final RegistryObject<Block> TITAN_BLOCK = BLOCKS.register("titan_block", TitanBlock::new);
+            public static final RegistryObject<Block> TITAN_ORE_BLOCK = BLOCKS.register("titan_ore_block", TitanBlock::new);
 
         //Блоки предметом
             public static final RegistryObject<Item> TITAN_BLOCK_ITEM =  ITEMS.register("titan_block", () -> new BlockItemBase(TITAN_BLOCK.get()));
