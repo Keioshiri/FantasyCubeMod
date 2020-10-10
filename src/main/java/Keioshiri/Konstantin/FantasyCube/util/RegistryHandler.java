@@ -30,6 +30,7 @@ public class RegistryHandler {
         }
         // Предметы
             public static final RegistryObject<Item> TITAN = ITEMS.register("titan", ItemBase::new);
+            public static final RegistryObject<Item> TITAN_ORE = ITEMS.register("titan_ore", ItemBase::new);
 
         // Инструменты
             public static final RegistryObject<SwordItem> TITAN_SWORD = ITEMS.register("titan_sword", () ->

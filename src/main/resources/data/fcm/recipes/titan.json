@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fmc:titan_ore"
+  },
+  "result": "fcm:titan",
+  "experience": 5,
+  "cookingtime": 200
+}

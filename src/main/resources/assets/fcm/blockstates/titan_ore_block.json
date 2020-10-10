@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "fcm:block/titan_oer_block" }
+  }
+}
