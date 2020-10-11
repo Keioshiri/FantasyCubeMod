@@ -6,6 +6,7 @@ import Keioshiri.Konstantin.FantasyCube.blocks.TitanBlock;
 import Keioshiri.Konstantin.FantasyCube.items.ItemBase;
 import Keioshiri.Konstantin.FantasyCube.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -38,6 +39,11 @@ public class RegistryHandler {
 
             public static final RegistryObject<PickaxeItem> TITAN_PICKAXE = ITEMS.register("titan_pickaxe", () ->
                 new PickaxeItem(ModItemTier.TITAN, 0, -2.8F, new Item.Properties().group(FantasyCubeMod.TAB)));
+
+            //  Броня предметом
+
+            public static final RegistryObject<ArmorItem> TITAN_HELMET = ITEMS.register("titan_armor_head", () ->
+                    );
 
         // Блоки
             public static final RegistryObject<Block> TITAN_BLOCK = BLOCKS.register("titan_block", TitanBlock::new);
