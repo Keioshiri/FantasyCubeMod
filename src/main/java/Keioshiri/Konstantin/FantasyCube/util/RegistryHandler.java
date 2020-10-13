@@ -44,16 +44,16 @@ public class RegistryHandler {
 
             //  Броня предметом
 
-            public static final RegistryObject<ArmorItem> TITAN_HELMET = ITEMS.register("titan_armor_head", () ->
+            public static final RegistryObject<ArmorItem> TITAN_HELMET = ITEMS.register("titan_head", () ->
                     new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.HEAD, new Item.Properties().group(FantasyCubeMod.TAB)));
 
-            public static final RegistryObject<ArmorItem> TITAN_CHESTPLATE = ITEMS.register("titan_armor_chestplate", () ->
+            public static final RegistryObject<ArmorItem> TITAN_CHESTPLATE = ITEMS.register("titan_chestplate", () ->
                     new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.CHEST, new Item.Properties().group(FantasyCubeMod.TAB)));
 
-            public static final RegistryObject<ArmorItem> TITAN_LEGGINGS = ITEMS.register("titan_armor_leggings", () ->
+            public static final RegistryObject<ArmorItem> TITAN_LEGGINGS = ITEMS.register("titan_leggings", () ->
                     new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.LEGS, new Item.Properties().group(FantasyCubeMod.TAB)));
 
-            public static final RegistryObject<ArmorItem> TITAN_BOOTS = ITEMS.register("titan_armor_boots", () ->
+            public static final RegistryObject<ArmorItem> TITAN_BOOTS = ITEMS.register("titan_boots", () ->
                     new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.FEET, new Item.Properties().group(FantasyCubeMod.TAB)));
         // Блоки
             public static final RegistryObject<Block> TITAN_BLOCK = BLOCKS.register("titan_block", TitanBlock::new);
