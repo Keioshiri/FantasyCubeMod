@@ -1,11 +1,13 @@
 package Keioshiri.Konstantin.FantasyCube.util;
 
 import Keioshiri.Konstantin.FantasyCube.FantasyCubeMod;
+import Keioshiri.Konstantin.FantasyCube.armor.ModArmorMaterial;
 import Keioshiri.Konstantin.FantasyCube.blocks.BlockItemBase;
 import Keioshiri.Konstantin.FantasyCube.blocks.TitanBlock;
 import Keioshiri.Konstantin.FantasyCube.items.ItemBase;
 import Keioshiri.Konstantin.FantasyCube.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
@@ -43,8 +45,16 @@ public class RegistryHandler {
             //  Броня предметом
 
             public static final RegistryObject<ArmorItem> TITAN_HELMET = ITEMS.register("titan_armor_head", () ->
-                    );
+                    new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.HEAD, new Item.Properties().group(FantasyCubeMod.TAB)));
 
+            public static final RegistryObject<ArmorItem> TITAN_CHESTPLATE = ITEMS.register("titan_armor_chestplate", () ->
+                    new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.CHEST, new Item.Properties().group(FantasyCubeMod.TAB)));
+
+            public static final RegistryObject<ArmorItem> TITAN_LEGGINGS = ITEMS.register("titan_armor_leggings", () ->
+                    new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.LEGS, new Item.Properties().group(FantasyCubeMod.TAB)));
+
+            public static final RegistryObject<ArmorItem> TITAN_BOOTS = ITEMS.register("titan_armor_boots", () ->
+                    new ArmorItem(ModArmorMaterial.TITAN, EquipmentSlotType.FEET, new Item.Properties().group(FantasyCubeMod.TAB)));
         // Блоки
             public static final RegistryObject<Block> TITAN_BLOCK = BLOCKS.register("titan_block", TitanBlock::new);
             public static final RegistryObject<Block> TITAN_ORE_BLOCK = BLOCKS.register("titan_ore_block", TitanBlock::new);

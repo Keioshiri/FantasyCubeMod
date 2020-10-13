@@ -5,6 +5,10 @@
   "item.fcm.titan_ore": "Titan Ore",
   "block.fcm.titan_block": "Titan Block",
   "block.fcm.titan_ore_block": "Titan Ore",
-  "itemGroup.FantasyCubeTab": "FantasyCubeMod"
+  "itemGroup.FantasyCubeTab": "FantasyCubeMod",
 
+  "item.fcm.titan_armor_head": "Titan Helmet",
+  "item.fcm.titan_armor_chestplate": "Titan Chestplate",
+  "item.fcm.titan_armor_leggings": "Titan Leggings",
+  "item.fcm.titan_armor_boots": "Titan Boots"
 }
