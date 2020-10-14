@@ -1,0 +1,14 @@
+{
+  "item.FantasyCubeMod.titan": "Titan",
+  "item.FantasyCubeMod.titan_sword": "Titan Sword",
+  "item.FantasyCubeMod.titan_pickaxe": "Titan Pickaxe",
+  "item.FantasyCubeMod.titan_ore": "Titan Ore",
+  "block.FantasyCubeMod.titan_block": "Titan Block",
+  "block.FantasyCubeMod.titan_ore_block": "Titan Ore",
+  "itemGroup.FantasyCubeTab": "FantasyCubeMod",
+
+  "item.FantasyCubeMod.titan_head": "Titan Helmet",
+  "item.FantasyCubeMod.titan_chestplate": "Titan Chestplate",
+  "item.FantasyCubeMod.titan_leggings": "Titan Leggings",
+  "item.FantasyCubeMod.titan_boots": "Titan Boots"
+}

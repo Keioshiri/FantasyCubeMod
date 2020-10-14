@@ -15,11 +15,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-@Mod("fcm")
+@Mod("FantasyCubeMod")
 public class FantasyCubeMod {
 
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "fcm";
+    public static final String MOD_ID = "FantasyCubeMod";
 
     public FantasyCubeMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

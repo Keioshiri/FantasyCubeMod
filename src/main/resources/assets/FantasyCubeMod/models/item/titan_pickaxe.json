@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "fcm:items/titan_pickaxe"
+    "layer0": "FantasyCubeMod:items/titan_pickaxe"
   }
 }
